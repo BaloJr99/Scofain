@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ScofainPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>jpa.Usuarios</class>
+    <class>jpa.Catalogocuentas</class>
+    <class>jpa.Catalogoproductosservicios</class>
+    <class>jpa.Estado</class>
+    <class>jpa.Empleado</class>
+    <class>jpa.Tblfactura</class>
+    <class>jpa.Tblcatalogoproductosservicios</class>
+    <class>jpa.Tblimpuestosretenidos</class>
+    <class>jpa.Tblcolonia</class>
+    <class>jpa.Tbldetallefactura</class>
+    <class>jpa.Tblciudad</class>
+    <class>jpa.Tblcatalogocuentas</class>
+    <class>jpa.Tblimpuestostrasladados</class>
+    <class>jpa.Tblmetodopago</class>
+    <class>jpa.Tblformapago</class>
+    <class>jpa.Tblimpuestos</class>
+    <class>jpa.Tblreceptor</class>
+    <class>jpa.Tblusuarios</class>
+    <class>jpa.Tblestado</class>
+    <class>jpa.Tblemisor</class>
+    <class>jpa.Tblregimenfiscal</class>
+    <class>jpa.Tbldomicilio</class>
+    <class>jpa.Tblcliente</class>
+    <class>jpa.Tbltelefono</class>
+    <class>jpa.Tbldatopoliza</class>
+    <class>jpa.Tblempleado</class>
+    <class>jpa.Tblclaveunidad</class>
+    <class>jpa.Tbltipocomprobante</class>
+    <class>jpa.Tblusocfdi</class>
+    <class>cl.model.dao.Tbldetallefactura</class>
+    <class>jpa.Tblproductos</class>
+    <class>jpa.Tblprenomina</class>
+    <class>jpa.Tbldetalleprenomina</class>
+    <class>jpa.Tblnomina</class>
+    <class>jpa.Tbliniciossesion</class>
+    <class>jpa.Tblpoliza</class>
+    <class>jpa.Tbliniciosesion</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/scofain?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Pirata99*"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
